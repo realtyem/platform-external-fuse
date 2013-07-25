@@ -41,6 +41,7 @@ LOCAL_SHARED_LIBRARIES := \
 	libutils libdl
 
 LOCAL_CFLAGS := \
+	-fno-strict-aliasing \
 	-D_FILE_OFFSET_BITS=64 \
 	-DFUSE_USE_VERSION=26
 
