@@ -38,7 +38,7 @@
 #endif
 
 #if defined(__ANDROID__)
-typedef loff_t off_t;
+//typedef loff_t off_t;
 #endif
 
 #ifdef __cplusplus
