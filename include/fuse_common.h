@@ -380,7 +380,7 @@ struct fuse_buf {
 	 *
 	 * Used if FUSE_BUF_FD_SEEK flag is set.
 	 */
-	off_t pos;
+	loff_t pos;
 };
 
 /**
